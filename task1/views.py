@@ -22,13 +22,14 @@ def signup(request):
         last_char = username[-1]
         print(first_char)
         print(last_char)
-
-        obj = Signup1(username=username,password=password1,phone_no=phone)
+        if (first_char=="a" or first_char=="A") :
+          obj = Signup1(username=username,password=password1,phone_no=phone)
+          obj.save()
+          print("User Created")
+          return render(request,'task.html')
         
-        obj.save()
-        print("User Created")
-        return render(request,'task.html')
-
+        else:
+            return render(request,'wrong.html')
     else:
       return render(request,'signup.html')
 

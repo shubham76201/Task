@@ -57,7 +57,7 @@ button.ghost {
 }
 
 form {
-	background-color: #1b8eb1;
+	background-color: #0099ff;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -76,7 +76,7 @@ input {
 }
 
 .container {
-	background-color: rgb(30, 182, 156);
+	background-color: rgb(200, 255, 179);
 	border-radius: 10px;
   	box-shadow: 0 14px 28px rgba(101, 143, 145, 0.25), 
 			0 10px 10px rgba(0,0,0,0.22);

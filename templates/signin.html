@@ -2,16 +2,16 @@
 {% load static %}
 {% block css %}
 <link rel="stylesheet" href="{% static 'style1.css' %}">{% endblock css %}
-{% block tag1 %}<li><a href="login/signup">Sign-up </a></li> {% endblock tag1 %}
+{% block tag1 %}<li style="font-size:120%"><a href="login/signup">Sign-up </a></li> {% endblock tag1 %}
 {% block content %}
 
 <body class=" body1">
-    <div class="container" id="container">
-        <button>Sign Up</button>
+    <div style ="background-color: rgb(200, 255, 179)"class="container" id="container">
+        <button>Sign IN</button>
 
         <div class="form-container sign-in-container">
             
-            <form action="signin" method="post">
+            <form style="background-color: #0099ff;" action="signin" method="post">
                 {% csrf_token %}
                 <h1>SIGN IN </h1>
                 

@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+
+{% block content %}
+<body >
+    <ul style="margin-left: 50px;">
+    <h4>Null Values </h4>
+    {% for i in Null %}
+    <li>{{i}} </li>
+    {% endfor %}
+    <h4>Two Values </h4>
+    {% for j in Two %}
+    <li>{{j}} </li>
+    {% endfor %}
+    <h4>Three Values </h4>
+    {% for k in Three %}
+    <li>{{k}} </li>
+    {% endfor %}
+        
+    </ul>
+</body>
+</html>
+{% endblock content %}
