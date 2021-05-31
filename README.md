@@ -1,4 +1,15 @@
-# Task
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="https://github.com/shubham76201/Task/blob/master/images/signin.PNG?raw=true" alt="Signin" srcset="">
+</body>
+</html>
 
-Sign in Page 
-https://github.com/shubham76201/Task/blob/master/images/signin.PNG?raw=true
+
+
